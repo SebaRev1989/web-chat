@@ -10,3 +10,5 @@ Antes de clonar el proyecto deben tener instalado y configurado NodeJS y el gest
 2. El paso anterior creará un directorio "web-chat", deben entrar en el mismo.
 3. Ejecutar el comando __npm install__
 
+## Puesta en funcionamiento
+Una vez que se instalaron todas las dependecias, ejecutar el comando __node index.js__
