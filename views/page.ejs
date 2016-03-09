@@ -3,13 +3,14 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>Web Chat en Tiempo Real</title>
+	<script src="/chat.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
-	<div id="content" style="width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;">
-		<div class="controls">
-			<input style="width: 350px;" class="field"/>
-			<input type="button" value="Enviar" class="send"/>
-		</div>
-	</div>
-</body>
+    <div id="content" style="width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;"></div>
+    <div class="controls">
+      <input style="width:350px;" class="field" id="field">
+      <input type="button" value="Enviar" class="send" id="send">
+    </div>
+  </body>
 </html>
