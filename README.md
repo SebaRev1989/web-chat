@@ -11,4 +11,5 @@ Antes de clonar el proyecto deben tener instalado y configurado NodeJS y el gest
 3. Ejecutar el comando __npm install__
 
 ## Puesta en funcionamiento
-Una vez que se instalaron todas las dependecias, ejecutar el comando __node index.js__
+1. Una vez que se instalaron todas las dependecias, ejecutar el comando __node index.js__
+2. Desde una navegador entrar a __http://localhost:3700__ (en caso de cambiar el puerto, reemplazar el puerto 3700 por el seleccionado).
